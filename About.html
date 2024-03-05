@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codex</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- MOBILE-MENU START -->
+    <div class="mobile-menu">
+      <div class="mobile-close">
+        <a href="index.html">
+          <img src="images/logof.png" alt="" width="60%" />
+        </a>
+        <a href="javascript:void(0)" id="menu-close"
+          ><i class="fa fa-times"></i
+        ></a>
+      </div>
+      <div class="mobile-menu-body" id="mobile-menu-body"></div>
+    </div>
+    <!-- MOBILE-MENU END -->
+    <!-- HEADER CSS START -->
+    <header
+      class="header-what plant-animation"
+      style="background: #96e2de !important"
+    >
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row align-items-center nav-full">
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="navbar-respon d-flex justify-content-between">
+                <div class="hamburger d-block d-lg-none">
+                  <div class="hamburger-container">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="header-logo">
+                  <a href="index.html">
+                    <img src="images/logo.png" alt="" />
+                  </a>
+                </div>
+                <div class="list-inline-item item-basket-3 d-flex gap-1">
+                  <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                  <p>0</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-6 col-sm-6 d-none d-lg-block">
+              <div class="bottom-row">
+                <ul class="list-inline navigation-list">
+                  <li class="list-inline-item active">
+                    <a href="./whatwedo.html">What We Do </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="./instructors.html">For Instructors</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="./shop.html">Shop</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="resource.html">Blog</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="./pricing.html">Pricing</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="./login.html">Sign In</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <div class="item-basket item-basket-2 d-flex gap-1">
+                      <a href="#"
+                        ><i class="fa-solid fa-basket-shopping"></i
+                      ></a>
+                      <p>0</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 col-sm-12 header-content">
+              <div
+                class="header-content1 text-center"
+                data-aos="zoom-out-right"
+                data-aos-duration="1500"
+              >
+                <h1 id="about-heading">ABOUT US</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- Cards START -->
+
+    <section>
+      <div class="container">
+        <div class="row carding">
+          <div class="col-md-4 col-sm-6">
+            <div class="card" data-aos="fade-up" data-aos-duration="1500">
+              <div class="card-content">
+                <div class="card-imging">
+                  <div class="img">
+                    <img src="./images/card-1.png" alt="" />
+                  </div>
+                </div>
+                <div class="content">
+                  <h4>DISCOVER POSSIBLE</h4>
+                  <p class="text-center">
+                    They possess knowledge and experience in spiritual matters
+                    and can provide insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="1500">
+              <div class="card-content">
+                <div class="card-imging">
+                  <div class="img">
+                    <img src="./images/card-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="content">
+                  <h4>PEOPLE MATTER</h4>
+                  <p class="text-center">
+                    They possess knowledge and experience in spiritual matters
+                    and can provide insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card" data-aos="fade-down" data-aos-duration="1500">
+              <div class="card-content">
+                <div class="card-imging">
+                  <div class="img">
+                    <img src="./images/card-3.png" alt="" id="img-3" />
+                  </div>
+                </div>
+                <div class="content">
+                  <h4>FEELING GOOD</h4>
+                  <p class="text-center">
+                    They possess knowledge and experience in spiritual matters
+                    and can provide insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card End -->
+
+    <!-- Codex Story Start -->
+
+    <section class="story story4">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row flex-diection-column">
+            <div class="col-md-6 content-story">
+              <div class="content-story1 content-story2">
+                <h2>The Codex</h2>
+                <p>
+                  Welcome to Codex – your virtual retreat for yoga and
+                  meditation. Dive into a space where ancient practices meet
+                  modern well-being. Whether you're a beginner or seasoned
+                  practitioner, Codex is here to guide you on a journey of
+                  self-discovery and mindfulness. Join our community, explore
+                  expert-led sessions, and cultivate a path to inner peace and
+                  vitality. Welcome to the art of living well with Codex.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="./images/about-group.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Codex Story End -->
+
+    <section class="py-5 mt-5 cards-three cards-four cards-about-teachers">
+      <div class="container">
+        <div class="content_class_section text-center">
+          <h2>OUR BEST TEACHERS</h2>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-hover">
+                <div class="img-card-about">
+                  <img src="./images/img1.png" alt="..." />
+                </div>
+                <div class="card-content-about">
+                  <h4>ALEX SMITH</h4>
+                  <p>Yoga Teacher</p>
+                </div>
+                <div class="card-body">
+                  <div class="main-content-about-hover card-body-about">
+                    <div class="card-body-hover-text text-center">
+                      <i class="fa-regular fa-message"></i>
+                      <h4>CONTACT ME</h4>
+                    </div>
+                    <div
+                      class="card-body-hover-text text-center"
+                      style="padding-top: 50px; line-height: 13px"
+                    >
+                      <p>+123 456 789</p>
+                      <p>kyle.me@yahoo.com</p>
+                      <div
+                        class="social-icons-about-content d-flex gap-3 justify-content-center"
+                      >
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Youga Start -->
+    <section class="py-5 youga">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 content-youga">
+            <div
+              class="content-youga1"
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+            >
+              <h3>YOGA ENHANCES YOUR LIFE</h3>
+              <p>
+                Yoga enhances your life by promoting physical and mental
+                well-being through a harmonious blend of physical postures,
+                breathing exercises, and meditation. It increases flexibility,
+                strength, and balance, while reducing stress and promoting
+                relaxation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="progress__bar position-relative"
+              data-aos="zoom-in-down"
+              data-aos-duration="1500"
+            >
+              <!--Start Animated Progress Bar-->
+              <div class="mb-4 progress__list">
+                <div class="d-flex justify-content-between">
+                  Breathing <span>65%</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                  <span data-progress="65"></span>
+                </div>
+              </div>
+              <div class="mb-4 progress__list">
+                <div class="d-flex justify-content-between">
+                  Metabolism <span>90%</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                  <span data-progress="90"></span>
+                </div>
+              </div>
+              <div class="mb-4 progress__list">
+                <div class="d-flex justify-content-between">
+                  Flexibility <span>80%</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                  <span data-progress="80"></span>
+                </div>
+              </div>
+              <div class="mb-4 progress__list">
+                <div class="d-flex justify-content-between">
+                  Toned Muscles <span>50%</span>
+                </div>
+                <div class="animated-progress progress-blue">
+                  <span data-progress="50"></span>
+                </div>
+              </div>
+
+              <!--End Animated Progress Bar-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Youga End -->
+    <section class="login1 py-5">
+      <div class="container-fluid login">
+        <div class="container">
+          <div class="login-form" data-aos="fade-down" data-aos-duration="1500">
+            <div class="card">
+              <h3>Login To Your Account</h3>
+              <p>Login using social networks</p>
+              <div class="icons-socials">
+                <a href="#"><img src="./images/google.png" alt="" /></a>
+                <a href="#"><img src="./images/facebook.png" alt="" /></a>
+                <a href="#"><img src="./images/instagram.png" alt="" /></a>
+                <a href="#"><img src="./images/twitter.png" alt="" /></a>
+              </div>
+
+              <form action="">
+                <div class="inputs-fields">
+                  <div class="my-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Email ID"
+                    />
+                  </div>
+                  <div class="my-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+                <div class="btn-img-card1">
+                  <button class="primary-btns">Login</button>
+                </div>
+              </form>
+              <div class="signup-div pt-5 pb-3">
+                <p>Don't have an account?<a href="#">Sign Up</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Login End -->
+    <section class="slidingcar">
+      <div class="container-fluid testimonal">
+        <div class="container">
+          <div class="row">
+            <div class="swiper mytestimonal">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="my-testimonal-content w-100">
+                    <div class="my-testimonal-content2 text-white">
+                      <div
+                        class="my-testimonal-img d-flex justify-content-center pb-5"
+                      >
+                        <img src="./images/Path 84.svg" alt="" />
+                      </div>
+                      <h4 class="pt-3">
+                        This is my second time completing a 200 hr TTC from
+                        <br />
+                        Codex and I loved the experiences even more than the
+                        <br />
+                        first time that I had done in 2014.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="my-testimonal-profile">
+                    <img
+                      src="./images/portrait-smiling-young-man-eyewear.png"
+                      alt=""
+                    />
+                    <h5>Denny Clark</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="my-testimonal-content w-100">
+                    <div class="my-testimonal-content2 text-white">
+                      <div
+                        class="my-testimonal-img d-flex justify-content-center pb-5"
+                      >
+                        <img src="./images/Path 84.svg" alt="" />
+                      </div>
+                      <h4 class="pt-3">
+                        This is my second time completing a 200 hr TTC from
+                        <br />
+                        Codex and I loved the experiences even more than the
+                        <br />
+                        first time that I had done in 2014.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="my-testimonal-profile">
+                    <img
+                      src="./images/portrait-smiling-young-man-eyewear.png"
+                      alt=""
+                    />
+                    <h5>Denny Clark</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="my-testimonal-content w-100">
+                    <div class="my-testimonal-content2 text-white">
+                      <div
+                        class="my-testimonal-img d-flex justify-content-center pb-5"
+                      >
+                        <img src="./images/Path 84.svg" alt="" />
+                      </div>
+                      <h4 class="pt-3">
+                        This is my second time completing a 200 hr TTC from
+                        <br />
+                        Codex and I loved the experiences even more than the
+                        <br />
+                        first time that I had done in 2014.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="my-testimonal-profile">
+                    <img
+                      src="./images/portrait-smiling-young-man-eyewear.png"
+                      alt=""
+                    />
+                    <h5>Denny Clark</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="my-testimonal-content w-100">
+                    <div class="my-testimonal-content2 text-white">
+                      <div
+                        class="my-testimonal-img d-flex justify-content-center pb-5"
+                      >
+                        <img src="./images/Path 84.svg" alt="" />
+                      </div>
+                      <h4 class="pt-3">
+                        This is my second time completing a 200 hr TTC from
+                        <br />
+                        Codex and I loved the experiences even more than the
+                        <br />
+                        first time that I had done in 2014.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="my-testimonal-profile">
+                    <img
+                      src="./images/portrait-smiling-young-man-eyewear.png"
+                      alt=""
+                    />
+                    <h5>Denny Clark</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="my-testimonal-content w-100">
+                    <div class="my-testimonal-content2 text-white">
+                      <div
+                        class="my-testimonal-img d-flex justify-content-center pb-5"
+                      >
+                        <img src="./images/Path 84.svg" alt="" />
+                      </div>
+                      <h4 class="pt-3">
+                        This is my second time completing a 200 hr TTC from
+                        <br />
+                        Codex and I loved the experiences even more than the
+                        <br />
+                        first time that I had done in 2014.
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="my-testimonal-profile">
+                    <img
+                      src="./images/portrait-smiling-young-man-eyewear.png"
+                      alt=""
+                    />
+                    <h5>Denny Clark</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Start -->
+    <section class="partners">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Partners ENd -->
+    <!-- Footer Start -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="logo py-5">
+            <img src="./images/footerlogo.png" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-6">
+            <ul>
+              <li><a href="#">About Us </a></li>
+              <li><a href="#">How It Works?</a></li>
+              <li><a href="#">Wellness Journey</a></li>
+              <li><a href="#">For Instructors</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-6">
+            <ul>
+              <li><a href="#">Terms Of Use</a></li>
+              <li><a href="#">Privacy Policy </a></li>
+              <li><a href="#">Copyright Policy </a></li>
+              <li><a href="#">Data Deletion Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-12 pt-4 search_signup">
+            <h5>Stay up to date</h5>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Your Email Here"
+              aria-label="Search"
+            />
+            <a href="#">Sign Up</a>
+          </div>
+        </div>
+        <div class="row">
+          <h6 class="text-white text-center py-3">
+            © 2023 Codex, LLC. All Rights Reserved
+          </h6>
+        </div>
+        <div class="row">
+          <div class="social-icons-footer d-flex justify-content-center gap-3">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-youtube"></a>
+            <a href="#" class="fa-brands fa-telegram"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-pinterest"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mytestimonal", {
+        spaceBetween: 30,
+        loop: true,
+        autoplay: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+    <script src="App.js"></script>
+  </body>
+</html>
